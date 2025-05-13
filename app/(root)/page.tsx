@@ -31,14 +31,14 @@ export default function Home() {
       >
         <CarouselContent>
           <CarouselItem className='relative w-full h-121'>
-            <Image src='/banner/banner01.png' alt="banner01" className='object-cover' fill priority={true}></Image>
+            <Image src='/banner/banner01.png' alt="banner01" className='object-cover object-left' fill priority={true}></Image>
           </CarouselItem>
           <CarouselItem className='relative w-full h-121'>
-            <Image src='/banner/banner02.png' alt="banner02" className='object-cover' fill priority={true}></Image>
+            <Image src='/banner/banner02.png' alt="banner02" className='object-cover object-left' fill priority={true}></Image>
           </CarouselItem>
         </CarouselContent>
       </Carousel>
-      <div className='grid grid-cols-6 p-5 gap-5'>
+      <div className='grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-6 p-5 gap-5'>
         <Link href='/' className='py-9 bg-white rounded-lg flex flex-col items-center justify-center'>
           <BusFront width={50} height={50} className='mb-2.5' />
           <h3 className='mb-1.5'>台北市/新北市</h3>
